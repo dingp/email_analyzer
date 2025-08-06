@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include requirements.txt
+include .env.example
+recursive-include email_analyzer *.py
+recursive-include email_analyzer/templates *.txt
+recursive-include email_analyzer/config *.yaml
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
